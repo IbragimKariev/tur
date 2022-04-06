@@ -1,0 +1,113 @@
+@media (max-width: 1205px){
+    .tour_desc{
+        min-width: 32%;
+    }
+}
+@media (max-width: 991px){
+    .select_filter{
+        min-width: 100%;
+    }
+    .form_btn{
+        margin-top: 10px;
+    }
+    .side_bar{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    ul.menu{
+        display: block;
+        position: fixed;
+        height: 100vh;
+        background: #069778;
+        z-index: 999;
+        top: 0;
+        padding-top: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 200px;
+        transition: all 0.3s;
+        opacity: 0;
+        left: -200px;
+    }
+    ul.menu.active{
+        display: block;
+        transition: all 0.3s;
+        opacity: 1;
+        left: 0;
+    }
+    .menu-btn{
+        display: flex;
+        position: absolute;
+        right: 15px;
+    }
+    .slogan{
+       display: none;
+    }
+    .navigation_menu{
+        position: relative;
+        height: 61px;
+    }
+    .header{
+        padding: 15px;
+    }
+    .date_filter{
+        width: 40%;
+    }
+    .form_filter_item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .select_filter_inp{
+        width: 100%;
+    }
+    .form_filter_item:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .tour_img{
+        display: none;
+    }
+    .tour_content_item{
+        display: block;
+    }
+
+}
+
+@media (max-width: 767px){
+    .tour_content_item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .tour_desc{
+        margin-bottom: 10px;
+    }
+    .tour:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .banner_text{
+        display: block;margin: auto;
+    }
+}
+@media (max-width: 450px){
+    .pp_card{
+        width: 96%;
+        background: #ffffff;
+        position: relative;
+        display: block;
+        padding: 38px 30px;
+        margin: 50px auto 0;
+    }
+    .banner_text p.lead.my-5 {
+        position: relative;
+        color: #000000;
+        font-weight: 400;
+        margin-top: 20px!important;
+        margin-bottom: 20px!important;
+    }
+    .hero-banner h1 {
+        font-size: 30px;
+        position: relative;
+    }
+    .banner_text{
+        width: 90%;
+    }
+}

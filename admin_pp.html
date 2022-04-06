@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TUR | Админ страница</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+</head>
+<body>
+<header>
+    <div class="header container">
+        <div class="right_side">
+            <div class="logo"><a href="#"><img src="./images/logo.jpg" alt=""></a></div>
+            <div class="slogan">
+                <h4 class="slogan_text">
+                    Путешествуйте свободно и легко!
+                </h4>
+            </div>
+        </div>
+
+        <div class="left_side">
+            <div class="lang">
+                <button class=" dropdown-toggle " type="button" id="lang" data-bs-toggle="dropdown"
+                        data-bs-auto-close="true" aria-expanded="true">
+                    RU
+                </button>
+                <ul class="dropdown-menu " aria-labelledby="lang" data-popper-placement="bottom-start"
+                    style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 40px);">
+                    <li><a class="" href="#">RU</a></li>
+                    <li><a class="" href="#">KG</a></li>
+                    <li><a class="" href="#">UZ</a></li>
+                </ul>
+            </div>
+            <div class="user">
+                <a href="#">Войти</a>
+                <!--                <button class=" dropdown-toggle " type="button" id="defaultDropdown" data-bs-toggle="dropdown"-->
+                <!--                        data-bs-auto-close="true" aria-expanded="true">-->
+                <!--                    <img src="./images/user.svg" alt="user"> Админ Админов-->
+                <!--                </button>-->
+                <!--                <ul class="dropdown-menu " aria-labelledby="defaultDropdown" data-popper-placement="bottom-start"-->
+                <!--                    style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 40px);">-->
+                <!--                    <li><a class="" href="#">Выйти</a></li>-->
+                <!--                </ul>-->
+            </div>
+        </div>
+    </div>
+    <nav class="navigation_menu">
+        <div class="container">
+            <ul class="menu">
+                <li class="menu_item"><a href="">Ссылка</a></li>
+                <li class="menu_item"><a href="">Ссылка</a></li>
+                <li class="menu_item"><a href="">Ссылка</a></li>
+                <li class="menu_item"><a href="">Ссылка</a></li>
+                <li class="menu_item"><a href="">+ 999(999)-99-99-99 </a></li>
+                <li class="menu_item"><a href="">+ 999(999)-99-99-99 </a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="menu-btn__burger">
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+</header>
+<div class="pp_block shown">
+    <div class="bg_overlay">
+
+    </div>
+    <div class="pp_card">
+            <p>Вы подтверждаете действие ?</p>
+             <div class="btns">
+                 <button class="form_btn">Да</button>
+                 <button class="form_btn" style="background: #ff9617">Отмена</button>
+             </div>
+    </div>
+</div>
+<main>
+    <section class="tours">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3">
+                    <div class="side_bar">
+                        <h2>Title</h2>
+                        <ul class="side_bar_menu">
+                            <li><a href="">Ссылка</a></li>
+                            <li><a href="">Ссылка</a></li>
+                            <li><a href="">Ссылка</a></li>
+                            <li><a href="">Ссылка</a></li>
+                            <li><a href="">Ссылка</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xl-9">
+                    <div class="tours_list">
+                        <div class="tour">
+                            <div class="tour_body">
+                                <div class="tour_img">
+                                    <img src="./images/banner/tour.jpg" alt="">
+                                </div>
+                                <div class="tour_content">
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_name">
+                                            Тур малый хадж
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_date">
+                                            С <span>12.12.2022</span> до <span>12.22.2022</span>
+                                        </div>
+                                        <div class="tour_desc tour_guide">
+                                            Гид: Тестов Тестович
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_limit">
+                                            Количество мест: <span>20</span>
+                                        </div>
+                                        <div class="tour_desc tour_company">
+                                            "Fly by airplane" company
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_price">
+                                            Цена: <span>1000$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tour_actions">
+                                <button class="action_btn active" title="Active">
+                                    активный
+                                    <div class="check">
+                                        <img src="./images/icons/check.svg" alt="">
+                                    </div>
+                                </button>
+                                <button class="action_btn active" title="Active">
+                                    Забронирован
+                                    <div class="check">
+                                        <img src="./images/icons/check.svg" alt="">
+                                    </div>
+                                </button>
+                                <button class="action_btn active" title="Active">
+                                    Оплачен
+                                    <div class="check">
+                                        <img src="./images/icons/check.svg" alt="">
+                                    </div>
+                                </button>
+                                <button class="action_btn disabled" title="not active">
+                                    Подтвержден
+                                    <div class="check">
+                                        <img src="./images/icons/check.svg" alt="">
+                                    </div>
+                                </button>
+                                <button class="action_btn disabled" title="not active">
+                                    Подтвержден
+                                    <div class="check">
+                                        <img src="./images/icons/check.svg" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="tour">
+                            <div class="tour_body">
+                                <div class="tour_img">
+                                    <img src="./images/banner/tour.jpg" alt="">
+                                </div>
+                                <div class="tour_content">
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_name">
+                                            Тур малый хадж
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_date">
+                                            С <span>12.12.2022</span> до <span>12.22.2022</span>
+                                        </div>
+                                        <div class="tour_desc tour_guide">
+                                            Гид: Тестов Тестович
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_limit">
+                                            Количество мест: <span>20</span>
+                                        </div>
+                                        <div class="tour_desc tour_company">
+                                            "Fly by airplane" company
+                                        </div>
+
+                                    </div>
+                                    <div class="tour_content_item">
+                                        <div class="tour_desc tour_price">
+                                            Цена: <span>1000$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tour_actions">
+                                <div class="form-check form-switch check_btn">
+                                    <input class="form-check-input" type="checkbox" id="active" checked>
+                                    <label class="form-check-label" for="active">Активный</label>
+                                </div>
+                                <div class="form-check form-switch check_btn">
+                                    <input class="form-check-input" type="checkbox" id="bron" checked>
+                                    <label class="form-check-label" for="bron">Забронирован</label>
+                                </div>
+                                <div class="form-check form-switch check_btn">
+                                    <input class="form-check-input" type="checkbox" id="payed" checked>
+                                    <label class="form-check-label" for="payed">Оплачен</label>
+                                </div>
+                                <div class="form-check form-switch check_btn">
+                                    <input class="form-check-input" type="checkbox" id="podtverjden" checked>
+                                    <label class="form-check-label" for="podtverjden">Подтвержден</label>
+                                </div>
+                                <div class="form-check form-switch check_btn">
+                                    <input class="form-check-input" type="checkbox" id="podtverjden2" checked>
+                                    <label class="form-check-label" for="podtverjden2">Подтвержден</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <nav class="pagination_nav" aria-label="pagination example">
+                                <ul class="pagination pagination-circle justify-content-center">
+                                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                    <li class="page-item"><a href="#" class="page-link">3</a></li>
+                                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+<footer class="text-center text-white" style="background-color: #069778">
+    <!-- Grid container -->
+    <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5">
+                <!-- Grid column -->
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Главная
+
+                        </a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white"> О проекте</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!" class="text-white">Еще ссылка</a>
+                    </h6>
+                </div>
+
+            </div>
+            <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-5"/>
+
+        <!-- Section: Text -->
+        <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                        distinctio earum repellat quaerat voluptatibus placeat nam,
+                        commodi optio pariatur est quia magnam eum harum corrupti
+                        dicta, aliquam sequi voluptate quas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 TUR
+    </div>
+    <!-- Copyright -->
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
