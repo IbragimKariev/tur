@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df15dfd-2703-4e14-bd2e-7b1c1b3c0abe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/RobotoCondensed-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649214367525</updated>
-      <workItem from="1649214369128" duration="3368000" />
+      <workItem from="1649214369128" duration="10581000" />
     </task>
     <servers />
   </component>

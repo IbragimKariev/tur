@@ -78,7 +78,7 @@
                 <!--                </div>-->
                 <div class="col-lg-6 banner_text">
                     <h1 class="mt-3">УМРА 2021</h1>
-                    <p class="lead my-5">
+                    <p class="lead">
                         Умра туры напрямую из Кыргызстана, полное сопровождение паломников. <br>
                         От подготовки документов до авиабилетов, отелей и гидов. </p>
                     <a href="#" class="btn btn-outline-secondary btn-lg border">Забронировать билет</a>
@@ -92,37 +92,45 @@
                 <div class="col-lg-3 col-xl-3">
                     <div class="side_bar">
                         <h2>Title</h2>
-                        <ul class="side_bar_menu">
-                            <li><a href="">Ссылка</a></li>
-                            <li><a href="">Ссылка</a></li>
-                            <li><a href="">Ссылка</a></li>
-                            <li><a href="">Ссылка</a></li>
-                            <li><a href="">Ссылка</a></li>
-                        </ul>
+<!--                        <ul class="side_bar_menu">-->
+<!--                            <li><a href="">Ссылка</a></li>-->
+<!--                            <li><a href="">Ссылка</a></li>-->
+<!--                            <li><a href="">Ссылка</a></li>-->
+<!--                            <li><a href="">Ссылка</a></li>-->
+<!--                            <li><a href="">Ссылка</a></li>-->
+<!--                        </ul>-->
+                        
+                        <a href="#" class="side_banner">
+                            <img src="./images/banner/s_banner.jpg" alt="">
+                        </a>
+                        <a href="#" class="side_banner">
+                            <img src="./images/banner/ss_banner.jpg" alt="">
+                        </a>
+                        <a href="#" class="side_banner">
+                            <img src="./images/banner/s_banner.jpg" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-9 col-xl-9">
                     <div class="tour_filter">
                         <form class="form_filter row">
-                            <div class="form_filter_item col-md-6 col-lg-6 col-12">
+                            <div class="form_filter_item col-md-12 col-lg-12 col-xl-7 col-12">
                                 <div class="date_filter">
-                                    <label>
-                                        от
-                                    </label>
-                                    <input type="date" class="date_filter_input">
+
+                                    <div class="date_item"><input type="text" placeholder="Дата от" class="date_filter_input"></div>
                                 </div>
 
                                 <div class="date_filter">
-                                    <label>
-                                        от
-                                    </label>
-                                    <input type="date" class="date_filter_input">
+
+                                    <div class="date_item">
+                                    <input type="text" class="date_filter_input" placeholder="Дата до">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form_filter_item col-md-6 col-lg-4 col-12">
+                            <div class="form_filter_item col-md-12 col-lg-12 col-xl-3 col-12">
                                 <div class="select_filter">
                                     <label>
-                                        Ажыбашы
+                                        Ажыбашы:
                                     </label>
                                     <select class="select_filter_inp" id="">
                                         <option disabled selected>-</option>
@@ -134,7 +142,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="form_filter_item col-md-12 col-lg-2 justify-content-end col-12">
+                            <div class="form_filter_item col-md-12 col-lg-12 col-xl-2 justify-content-end col-12">
                                 <button class="form_btn"><img src="./images/icons/search.svg" alt="">Найти</button>
                             </div>
 
@@ -146,11 +154,16 @@
                         <form id="search_form" class="form row" action="#" method="POST" role="form">
                             <div class="form-group col-xl-4">
                                 <label class="form-label" for="date_from">Дата от</label>
-                                <input type="date" class="form-control" id="date_from" name="date_from" required>
+                                <div class="date_item">
+                                    <input type="text" class="form-control" id="date_from" name="date_from" required>
+                                </div>
+
                             </div>
                             <div class="form-group col-xl-4">
                                 <label class="form-label" for="date_to">Дата до</label>
-                                <input type="date" class="form-control" id="date_to" name="date_to" >
+                                <div class="date_item">
+                                    <input type="text" class="form-control" id="date_to" name="date_from" required>
+                                </div>
                             </div>
                             <div class="form-group col-xl-4">
                                 <label class="form-label" for="acibasi">Компания</label>

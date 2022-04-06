@@ -2,6 +2,20 @@
     .tour_desc{
         min-width: 32%;
     }
+    .date_filter {
+        width: 48%;
+        display: block;
+    }
+    .form_filter_item{
+        margin-bottom: 16px;
+    }
+    .select_filter{
+        width: 100%;
+    }
+    .form_filter_item {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 @media (max-width: 991px){
     .select_filter{
@@ -12,6 +26,9 @@
     }
     .side_bar{
         display: none;
+    }
+    .date_filter {
+        width: 40%;
     }
 }
 @media (max-width: 768px){
@@ -70,6 +87,7 @@
     .tour_content_item{
         display: block;
     }
+
 
 }
 

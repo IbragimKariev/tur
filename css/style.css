@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -217,10 +217,10 @@ header {
 }
 
 .slogan .slogan_text {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 120%;
-    font-weight: 400;
-    color: #000000;
+    font-weight: 500;
+    color: #069778;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -267,6 +267,7 @@ ul.menu li a {
 .hero-banner h1 {
     font-size: 48px;
     position: relative;
+    font-weight: 600;
 }
 
 .hero-banner .btn {
@@ -311,6 +312,8 @@ ul.menu li a {
     position: relative;
     color: #000000;
     font-weight: 400;
+    line-height: 120%;
+    margin: 20px 0;
 }
 
 .banner_text:before {
@@ -324,7 +327,23 @@ ul.menu li a {
     border-radius: 5px;
     opacity: 0.7;
 }
-
+.date_item{
+    position: relative;
+}
+.date_item input{
+    padding-right: 30px;
+}
+.date_item:before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-image: url(../images/icons/calendar.svg);
+    background-position: center;
+    background-size: cover;
+    right: 7px;
+    top: 8px;
+}
 .tour {
     width: 100%;
     padding: 20px 15px;
@@ -368,13 +387,14 @@ ul.menu li a {
 .tour_content_item {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
-.tour_content_item:not(:last-child) {
-    margin-bottom: 12px;
+/*.tour_content_item:not(:last-child) {*/
+/*    margin-bottom: 12px;*/
+/*}*/
+.tour_desc .btn{
+    margin-top: 10px;
 }
-
 .tour_name {
     font-size: 24px;
     line-height: 120%;
@@ -565,8 +585,8 @@ ul.menu li a {
 }
 
 .date_filter_input {
+    width: 100%;
     height: calc(2.25rem + 2px);
-    padding: 2px 0 2px 15px;
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
@@ -839,7 +859,7 @@ ul.menu li a {
 
 #search_form .form-control {
     border-radius: 0;
-    border: 1px solid #000000;
+    border: 1px solid #dddddd;
     font-size: 16px;
     font-weight: 600;
     color: #000000;
@@ -864,7 +884,7 @@ ul.menu li a {
     border-radius: 3px;
     background: #ffffff;
     border: 2px solid #069778;
-    padding: 26px 15px 20px;
+    padding: 30px 15px 25px;
     margin: 30px 0;
     position: relative;
 }
@@ -884,4 +904,11 @@ ul.menu li a {
     line-height: 120%;
     font-weight: 600;
     color: #000000;
+}
+.side_banner{
+    display: block;
+    padding-right: 20px;
+}
+.side_banner:not(:last-child){
+    margin-bottom: 20px;
 }
