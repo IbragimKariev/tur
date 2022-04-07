@@ -16,10 +16,14 @@ menuBtn.addEventListener('click', ()=> {
 const pp = document.querySelector('.pp_block');
 const open_pp = document.querySelector('#open_pp');
 const close_pp = document.querySelector('.bg_overlay');
+const close_pp_btn = document.querySelector('.close_pp');
 
 open_pp.addEventListener('click', ()=> {
     pp.classList.add('shown');
 })
 close_pp.addEventListener('click', ()=> {
+    pp.classList.remove('shown');
+})
+close_pp_btn.addEventListener('click', ()=> {
     pp.classList.remove('shown');
 })

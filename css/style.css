@@ -46,7 +46,7 @@ header {
     font-size: 16px;
     line-height: 120%;
     font-weight: 500;
-    color: #000000;
+    color: #282828;
 }
 
 .user img {
@@ -67,7 +67,7 @@ header {
     font-size: 16px;
     line-height: 120%;
     font-weight: 500;
-    color: #000000;
+    color: #282828;
 }
 
 .user .dropdown-menu a {
@@ -82,7 +82,7 @@ header {
     font-size: 14px;
     line-height: 120%;
     font-weight: 500;
-    color: #000000;
+    color: #282828;
 }
 
 .lang .dropdown-toggle {
@@ -92,7 +92,7 @@ header {
     font-size: 14px;
     line-height: 120%;
     font-weight: 500;
-    color: #000000;
+    color: #282828;
 }
 
 .lang .dropdown-menu a {
@@ -310,7 +310,7 @@ ul.menu li a {
 
 .banner_text p {
     position: relative;
-    color: #000000;
+    color: #282828;
     font-weight: 400;
     line-height: 120%;
     margin: 20px 0;
@@ -349,9 +349,8 @@ ul.menu li a {
     padding: 20px 15px;
     -webkit-box-shadow: 0px 3px 8px rgb(69 101 173 / 10%);
     box-shadow: 0px 3px 8px rgb(69 101 173 / 10%);
-    border-radius: 3px;
     background: #ffffff;
-
+    border-radius: 5px;
     border: 1px solid #069778;
     transition: all 0.2s;
     position: relative;
@@ -373,8 +372,8 @@ ul.menu li a {
 }
 
 .tour_img img {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
@@ -387,6 +386,7 @@ ul.menu li a {
 .tour_content_item {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 /*.tour_content_item:not(:last-child) {*/
@@ -399,45 +399,47 @@ ul.menu li a {
     font-size: 24px;
     line-height: 120%;
     font-weight: 600;
-    color: #000000;
+    color: #282828;
 }
 
 .tour_date {
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
+    font-weight: 400;
+    color: #282828;
 }
 
 .tour_guide {
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
+    font-weight: 400;
+    color: #282828;
 }
 
 .tour_price {
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
+    font-weight: 400;
+    color: #282828;
 }
 
 .tour_limit {
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
+    font-weight: 400;
+    color: #282828;
 }
 
 .tour_date span, .tour_limit span {
-    color: #ff9617;
+    color: #282828;
+    font-weight: 600;
 }
 
 .tour_price span {
-    color: #ff9617;
+    color: #282828;
+    font-weight: 600;
 }
 
 .tour_company {
     font-size: 16px;
-    font-weight: 600;
-    color: #000000;
+    font-weight: 400;
+    color: #282828;
 }
 
 .tours {
@@ -628,7 +630,7 @@ ul.menu li a {
     border: none;
     background: #069778;
     color: #ffffff;
-    border-radius: 0;
+    border-radius: 2px;
 }
 
 .form_btn img {
@@ -733,6 +735,7 @@ ul.menu li a {
     display: block;
     padding: 38px 52px;
     margin: 130px auto 0;
+    border-radius: 4px;
 }
 
 .pp_form_item {
@@ -743,7 +746,7 @@ ul.menu li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #000000;
+    color: #282828;
     border: 1px solid #ebe8e8;
     box-sizing: border-box;
     background: #ffffff;
@@ -763,6 +766,7 @@ ul.menu li a {
     text-align: center;
     border: 1px solid #ff9617;
     margin-bottom: 23px;
+    border-radius: 3px;
 }
 
 .pp_card span {
@@ -772,7 +776,7 @@ ul.menu li a {
     font-size: 10px;
     line-height: 14px;
     display: block;
-    color: #000000;
+    color: #282828;
 }
 
 .pp_card p {
@@ -781,7 +785,7 @@ ul.menu li a {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: #000000;
+    color: #282828;
 }
 
 .tour_actions {
@@ -798,7 +802,7 @@ ul.menu li a {
     margin-right: 20px;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: #282828;
 }
 
 .action_btn .check {
@@ -862,7 +866,7 @@ ul.menu li a {
     border: 1px solid #dddddd;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: #282828;
 }
 
 #search_form .form-control:focus {
@@ -878,32 +882,26 @@ ul.menu li a {
 }
 
 #search_form .form_btn {
-    margin-top: 20px;
+    margin-top: 28px;
+    height: 36px;
+    width: 100px;
 }
 .tour_filter_2{
-    border-radius: 3px;
+    border-radius: 5px;
     background: #ffffff;
     border: 2px solid #069778;
     padding: 30px 15px 25px;
     margin: 30px 0;
     position: relative;
 }
-.tour_filter_2 .filter_title{
-    position: absolute;
-    top: -15px;
-    left: 29px;
-    display: block;
-    padding: 1px 15px;
-    background: #ffffff;
-    border: 2px solid #069778
-}
+
 .title_tours{
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 32px;
     line-height: 120%;
     font-weight: 600;
-    color: #000000;
+    color: #282828;
 }
 .side_banner{
     display: block;
@@ -911,4 +909,16 @@ ul.menu li a {
 }
 .side_banner:not(:last-child){
     margin-bottom: 20px;
+}
+.close_pp{
+    width: 20px;
+    height: 20px;
+    display: block;float: right;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    cursor: pointer;
+}
+.close_pp img{
+    width: 100%;
 }
